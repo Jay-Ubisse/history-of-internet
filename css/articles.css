@@ -1,0 +1,29 @@
+main {
+  margin-top: 100px;
+}
+main > p, main > h1 {
+  width: 60%;
+  text-align: justify;
+  margin: 0 auto;
+}
+main > p + p {
+  margin-top: 20px;
+}
+main > h1 {
+  margin-bottom: 40px;
+}
+main > div {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  justify-content: end;
+}
+main > div > p {
+  width: 20%;
+  background-color: #415a77;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px 0;
+}
